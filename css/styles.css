@@ -204,6 +204,10 @@ img {
     padding-right: 10px;
 }
 
+.section-one-icons {
+    margin-right: 10px;
+}
+
 .section-one-item:last-child {
     padding-right: 0;
 }
