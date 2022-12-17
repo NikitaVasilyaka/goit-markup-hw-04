@@ -28,6 +28,7 @@ img {
 
 
 
+
 /*---------- Header ----------*/
 
 
@@ -317,6 +318,32 @@ img {
 .member-title {
     padding-bottom: 10px;
 }
+
+.section-three-social {
+    display: flex;
+    padding: 12px 16px 36px 16px;
+    justify-content: space-between;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style: none;
+}
+
+.section-three-icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three-icon {
+    width: 16px;
+    height: 16px;
+}
+
+
 
 
 /*---------- Section-three ----------*/
