@@ -165,19 +165,26 @@ img {
     margin: auto;
     display: block;
     padding: 16px 32px;
-    border: 1px solid transparent;
+    border: 1px solid #4D5AE5;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 48px;
+    
 }
 
 .hero-button:hover {
+    background-color: #404BBF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .hero-button:active {
     background: #404bbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -343,22 +350,69 @@ img {
 
 
 
-/*---------- Section-three ----------*/
+/*---------- Section-four ----------*/
 
 .section-four {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+.section-four-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .section-four-title {
-    font-weight: 500;
+    margin-bottom: 72px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
-    margin-bottom: 78px;
 }
+
+.customers-list {
+    list-style: none;
+    display: flex;
+}
+
+.customer-item {
+    margin-right: 24px;
+}
+.customer-item:last-child {
+    margin-right: 0px;
+}
+
+.customers-icons {
+    height: 88px;
+    width: 168px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-icons:hover,
+.customers-icons:focus {
+    border: 1px solid #4D5AE5;
+}
+
+.customers-icon {
+    height: 88px;
+    width: 104px;
+    fill: #8E8F99;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-icons:hover .customers-icon,
+.customers-icons:focus .customers-icon {
+    fill: #4D5AE5;
+}
+
 
 
 /*---------- footer ----------*/
